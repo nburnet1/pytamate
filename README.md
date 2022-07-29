@@ -141,10 +141,16 @@ chmod +x install.sh
 ```sh
 ./install.sh
 ```
-This script will pip install some of the python libraries needed and setup a cronjob to automate the db insertionsevery X minutes.
+This script will pip install some of the python libraries needed and setup a cronjob to automate the db insertions every X minutes.
 
 ## Client
 The agent folder can be put on a usb and ran on each computer or set up through <a href="">Group Policy</a> hosted by a domain controller.
+
+### .py to .exe
+To convert, run this command on a windows device:
+```sh
+pyinstaller agent.py --onefile -w
+```
 
 ### GPO
 If using GPO, you will need to create a logon script that points to a common shared folder. Here is a batch script example:
@@ -155,6 +161,9 @@ pushd "\\mk-rds01\Share Folder\GPO\agent\"
 sysinf.exe -u
 popd
 ```
+
+<img src="/images/image_6483441.JPG">
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -221,6 +230,7 @@ Project Link: [https://github.com/nburnet1/pytamate](https://github.com/nburnet1
 * [Pyyaml](https://github.com/yaml/pyyaml)
 * [README Template](https://github.com/othneildrew/Best-README-Template)
 * [MySQL Connector](https://www.mysql.com/products/connector/)
+* [pyinstaller](https://pypi.org/project/pyinstaller/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
