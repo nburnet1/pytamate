@@ -1,0 +1,25 @@
+#Configuration for sql connection and cron job set up
+mysql:
+  host: localhost
+  user: user
+  password: password123
+  database: database
+  table: table
+table_cols:
+  Host_Name:
+  OS_Name:
+  Original_Install_Date:
+  System_Model:
+  BIOS_Version:
+  UUID:
+  User:
+  SN:
+  IP_Address:
+  Location:
+  Uptime_Days:
+  Sign_In_Date:
+automate:
+#Minutes in which the cron job will be ran.
+  freq: 15
+
+
