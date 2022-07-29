@@ -8,7 +8,6 @@ if [ $yon != "y" ]; then
 	exit
 fi
 
-pip install pyinstaller
 pip install mysql-connector-python
 pip install pyyaml
 
