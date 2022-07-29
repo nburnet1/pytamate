@@ -229,11 +229,11 @@ Project Link: [https://github.com/nburnet1/pytamate](https://github.com/nburnet1
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Img Shields](https://shields.io)
 * [Pyyaml](https://github.com/yaml/pyyaml)
-* [README Template](https://github.com/othneildrew/Best-README-Template)
 * [MySQL Connector](https://www.mysql.com/products/connector/)
 * [pyinstaller](https://pypi.org/project/pyinstaller/)
+* [README Template](https://github.com/othneildrew/Best-README-Template)
+* [Img Shields](https://shields.io)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
