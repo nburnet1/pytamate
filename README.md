@@ -15,7 +15,7 @@
   <h3 align="center">Pytamate :snake:</h3>
 
   <p align="center">
-    A server based automation application used to monitor windows clients
+    A server based automation application used to monitor Windows clients
     <br />
     <a href="https://github.com/nburnet1/pytamate"><strong>Explore the docs »</strong></a>
     <br />
