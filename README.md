@@ -157,7 +157,7 @@ If using GPO, you will need to create a logon script that points to a common sha
 
 ```sh
 @Echo off
-pushd "\\mk-rds01\Share Folder\GPO\agent\"
+pushd "\\rds\Share Folder\GPO\agent\"
 sysinf.exe -u
 popd
 ```
