@@ -147,7 +147,10 @@ This script will pip install some of the python libraries needed and setup a cro
 The agent folder can be put on a usb and ran on each computer or set up through <a href="">Group Policy</a> hosted by a domain controller.
 
 ### .py to .exe
-To convert, run this command on a windows device:
+To convert, copy the <a href="https://github.com/nburnet1/pytamate/tree/main/agent">agent folder</a> and run this command on a windows device:
+```sh
+pip install pyinstaller
+```
 ```sh
 pyinstaller agent.py --onefile -w
 ```
