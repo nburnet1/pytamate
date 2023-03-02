@@ -218,7 +218,7 @@ Distributed under the GNU GPL 3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Noah Burnette - nburnetgitub@gmail.com
+Noah Burnette - nburnet1github@gmail.com
 
 Project Link: [https://github.com/nburnet1/pytamate](https://github.com/nburnet1/pytamate)
 
