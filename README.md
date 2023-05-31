@@ -165,7 +165,7 @@ sysinf.exe -u
 popd
 ```
 
-<img src="/images/graph.png">
+<img src="/images/graph1.png">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
